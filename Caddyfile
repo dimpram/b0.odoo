@@ -12,7 +12,7 @@
 }
 
 https://sub.domain.com {
-
+	# Secure database manager
 	@dbmanager {
 		path /web/database/manager* /web/database/selector*
 	}
