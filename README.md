@@ -15,6 +15,10 @@ docker compose up -d
 - Direct edits on standard views will be overwritten
 - Custom inherited views, new manual views built from custom addons, customization from odoo studio will be preserved.
 
+### 0. Copy modified views
+
+From settings: Activate developer mode and navigate to `Technical > User Interface > Views`. Add the `Modified Architecture` filter and backup the XML views in case they have to be uploaded again.
+
 ### 1. Create Backup
 
 Always create a full backup from the database manager (db_dump + filestore) `http://<your-server-ip>:8069/web/database/manager` in case a rollback is necessary.
