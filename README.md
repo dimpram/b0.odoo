@@ -52,3 +52,7 @@ docker compose run --rm odoo odoo -d your_database_name -u all --stop-after-init
 ```bash
 docker compose up -d odoo
 ```
+
+#### Guides
+
+- [official odoo deployment guide](https://www.odoo.com/documentation/17.0/administration/on_premise/deploy.html?utm_source=chatgpt.com)
