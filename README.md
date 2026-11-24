@@ -56,3 +56,5 @@ docker compose up -d odoo
 #### Guides
 
 - [official odoo deployment guide](https://www.odoo.com/documentation/17.0/administration/on_premise/deploy.html?utm_source=chatgpt.com)
+- [odoo upgrade tldr](https://ocu.winotto.com/articles/how-to-upgrade-odoo-community)
+- [odoo OCA/open-upgrade guide](https://oca.github.io/OpenUpgrade/010_introduction.html)
