@@ -1,6 +1,6 @@
 services:
   odoo:
-    image: odoo:17.0
+    image: odoo:20.0
     # command: --proxy-mode # Use this for caddy/nginx configuration
     env_file: .env
     depends_on:
@@ -12,8 +12,9 @@ services:
       - data:/var/lib/odoo
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
+
   postgres:
-    image: postgres:15
+    image: postgres:16
     env_file: .env
     restart: unless-stopped
     volumes:
